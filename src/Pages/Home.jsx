@@ -4,6 +4,7 @@ import StarBg from '../components/StarBg'
 import Navbar from '../components/NavBar'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Skills from '../components/Skills'
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
       <Hero/>
       {/* About Section */}
       <About/>
+      {/* Skills Section */}
+      <Skills/>
     </main>
 
     {/* Projects Section */}
